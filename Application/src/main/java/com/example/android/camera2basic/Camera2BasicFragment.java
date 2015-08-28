@@ -437,12 +437,12 @@ public class Camera2BasicFragment extends Fragment implements View.OnClickListen
                         = manager.getCameraCharacteristics(cameraId);
 
                 // We don't use a front facing camera in this sample.
-
+/*
                 if (characteristics.get(CameraCharacteristics.LENS_FACING)
                         == CameraCharacteristics.LENS_FACING_FRONT) {
                     continue;
                 }
-
+*/
 
                 StreamConfigurationMap map = characteristics.get(
                         CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
